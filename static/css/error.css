@@ -1,0 +1,119 @@
+html,
+body {
+  background: #f4f5f7;
+}
+.error-container {
+  width: 980px;
+  margin: 30px auto 30px;
+  background: #fff;
+  border-radius: 10px;
+}
+.widescreen .error-container {
+  width: 1160px;
+}
+.error-panel {
+  overflow: hidden;
+}
+.error-panel.server-error .left-panel {
+  height: 150px;
+  width: 404px;
+  display: inline-block;
+  position: absolute;
+}
+.error-panel.server-error .left-panel .rollback-btn {
+  height: 40px;
+  width: 140px;
+  margin: 25px 40px 0 0;
+}
+.error-panel.server-error .right-panel {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: 404px;
+  padding-left: 26px;
+  color: #99a2aa;
+  border-left: 1px #ccd0d7 dashed;
+}
+.error-panel.article-error {
+  height: 307px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.error-panel.article-error .rollback-btn {
+  position: absolute;
+  left: 600px;
+  top: 220px;
+  padding: 0 20px;
+}
+.widescreen .error-panel.article-error .rollback-btn {
+  left: 720px;
+}
+.error-panel.article-error .msg-text {
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  top: 160px;
+  left: 460px;
+  font-size: 14px;
+  color: #ccd0d7;
+  overflow: hidden;
+}
+.widescreen .error-panel.article-error .msg-text {
+  left: 540px;
+}
+.error-panel.article-error .rollback-btn.login-btn {
+  display: inline-block;
+  position: absolute;
+  top: 144px;
+  left: 815px;
+}
+.widescreen .error-panel.article-error .rollback-btn.login-btn {
+  left: 906px;
+}
+.error-panel .rollback-btn {
+  display: inline-block;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  background: #00a1d6;
+  color: #fff;
+  border-radius: 4px;
+  float: right;
+  font-size: 16px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.error-panel .rollback-btn:hover {
+  background: #00b5e5;
+}
+.error-split {
+  width: 100%;
+  height: 40px;
+  background: url('/images/error/have_rest.png') center no-repeat;
+}
+.error-manga {
+  padding: 30px;
+  text-align: center;
+}
+.error-manga img {
+  max-width: 800px;
+}
+.error-manga .change-img-btn {
+  display: block;
+  height: 48px;
+  width: 150px;
+  margin: 30px auto 0;
+  line-height: 48px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 16px;
+  background: #00a1d6;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.error-manga .change-img-btn.off {
+  background-color: #e5e9ef;
+  color: #b8c0cc;
+}
